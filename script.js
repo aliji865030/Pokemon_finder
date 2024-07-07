@@ -267,7 +267,7 @@ document.querySelector("#fill").addEventListener("click", fillPokemon);
 async function firstStep(){
   await fillTypes()
   await storeByName()
-  await fillPokemon()
+   fillPokemon()
 }
 
 
