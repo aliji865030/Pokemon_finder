@@ -126,7 +126,7 @@ function colors(type){
 }
 
 async function storeByName() {
-  for (let i = 1; i <= 131; i++) {
+  for (let i = 1; i <= 50; i++) {
     let response = await fetch(`https://pokeapi.co/api/v2/pokemon/${i}/`);
     let parsedResponseData = await response.json();
 
