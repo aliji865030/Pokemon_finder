@@ -459,6 +459,14 @@ select{
 }
 
 
-
+@media screen and (max-width:600px) {
+  .headder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+}
 
 
